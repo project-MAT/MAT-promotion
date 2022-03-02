@@ -29,12 +29,12 @@ export default class MyDocument extends Document {
           <meta property="og:site_name" content="MAT" />
           <meta property="og:title" content="MAT" />
           <meta property="og:description" content="MAT 홍보 페이지" />
-          <meta property="og:image" content="../Assets/PNG/embed.png" />
+          <meta property="og:image" content="/Assets/PNG/embed.png" />
           <meta property="twitter:card" content="summary" />
           <meta property="twitter:site" content="MAT" />
           <meta property="twitter:title" content="MAT" />
           <meta property="twitter:description" content="MAT 홍보 페이지" />
-          <meta property="twitter:image" content="../Assets/PNG/embed.png" />
+          <meta property="twitter:image" content="/Assets/PNG/embed.png" />
           {this.props.styleTags}
         </Head>
         <body>
