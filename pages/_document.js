@@ -23,6 +23,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <title>MAT</title>
           {/* Step 5: Output the styles in the head  */}
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="MAT" />
