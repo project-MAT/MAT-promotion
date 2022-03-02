@@ -16,3 +16,14 @@ a {
 * {
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  width: 20px; /*스크롤바의 너비*/
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffbf19; /*스크롤바의 색상*/
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
