@@ -1,5 +1,6 @@
 import * as S from "./style";
 import * as I from "../../Assets/SVG";
+import Link from "next/link";
 
 const Section1 = () => {
   return (

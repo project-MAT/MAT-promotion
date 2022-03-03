@@ -22,4 +22,5 @@ export const Yellow = styled.span`
 
 export const More = styled.div`
   font-size: 20px;
+  cursor: pointer;
 `;

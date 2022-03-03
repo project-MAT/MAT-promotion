@@ -25,16 +25,23 @@ export default class MyDocument extends Document {
         <Head>
           <title>MAT</title>
           {/* Step 5: Output the styles in the head  */}
+          <meta name="description" content="MAT 홍보 페이지" />
+
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="MAT" />
           <meta property="og:title" content="MAT" />
           <meta property="og:description" content="MAT 홍보 페이지" />
           <meta property="og:image" content="/Assets/PNG/embed.png" />
+          <meta property="og:url" content="https://mat-promotion.netlify.app" />
+
           <meta property="twitter:card" content="summary" />
-          <meta property="twitter:site" content="MAT" />
+          <meta
+            property="twitter:site"
+            content="https://mat-promotion.netlify.app"
+          />
           <meta property="twitter:title" content="MAT" />
           <meta property="twitter:description" content="MAT 홍보 페이지" />
           <meta property="twitter:image" content="/Assets/PNG/embed.png" />
+
           {this.props.styleTags}
         </Head>
         <body>
