@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
           <meta property="og:description" content="MAT 홍보 페이지" />
           <meta
             property="og:image"
-            content="https://cdn.discordapp.com/attachments/902487399605604352/948717852028981288/embed.png"
+            content="https://cdn.discordapp.com/attachments/917912580536795217/948797867181617172/8813f699c02fe188.png"
           />
           <meta property="og:url" content="https://mat-promotion.netlify.app" />
 
@@ -45,7 +45,7 @@ export default class MyDocument extends Document {
           <meta property="twitter:description" content="MAT 홍보 페이지" />
           <meta
             property="twitter:image"
-            content="https://cdn.discordapp.com/attachments/902487399605604352/948717852028981288/embed.png"
+            content="https://cdn.discordapp.com/attachments/917912580536795217/948797867181617172/8813f699c02fe188.png"
           />
 
           {this.props.styleTags}
